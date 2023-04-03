@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&family=Comfortaa&family=Dancing+Script:wght@400;500;600&display=swap');
+/* font-family: 'Cairo', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Dancing Script', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility class */
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+.body {
+    background: rgb(137, 253, 254);
+    background: linear-gradient(0deg, rgba(137, 253, 254, 1) 0%, rgba(255, 251, 120, 1) 85%);
+    height: 100vh;
+    width: 100vw;
+}
+/* header  */
+header {
+    background-color: #bdbcbc;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.logo p{
+    font-size: 24px;
+    padding: 3px 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.nav-items a {
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    margin-inline: 5px;
+    padding:5px 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.nav-items a:hover {
+    background-color: grey;
+    color: white;
+}
+
+/* body  */
+.cover {
+    background-color: black;
+    position: relative;
+}
+
+.wrapper {
+    background-image: url('../img/dashboard.jpg');
+    background-position: center;
+    background-size: 800px 350px;
+    background-repeat: no-repeat;
+
+
+}
+
+.shadow {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 50vh;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+.text h1{
+    padding: 6px 0;
+}
+.text p{
+    padding: 4px;
+}
+
+.cover1{
+    background-color: black;
+    /* height: 100vh; */
+    padding: 30px 0 ;
+}
+
+.song{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.SongCoverImg{
+    width: 250px;
+    height: 210px;
+    margin: 8px 0;
+}
+.loadMore{
+    flex-direction: row-reverse;
+}
+.ajaxbtn{
+    font-family: 'Comfortaa', cursive;
+    padding: 5px 15px;
+    font-size: 16px;
+    border: none;
+    border: 2px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+
+
+footer{
+    background-color:grey;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+}
+.footer-heart{
+    color: red;
+    
+}
+.sec{
+    border-radius: 16px;
+    background-color: white;
+    width: 80vw;
+    padding: 5px;
+    margin: 10px;
+}
+
+.sec h2{
+    padding: 8px 5px ;
+}
+.sec h3{
+    padding: 8px 5px ;
+}
+.sec p{
+    padding: 8px 5px ;
+}
+
+.loadMore{
+    flex-direction: row-reverse;
+}
+.ajaxbtn{
+    font-family: 'Comfortaa', cursive;
+    padding: 5px 15px;
+    font-size: 16px;
+    border: none;
+    border: 2px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+.ajaxbtn:hover{
+   background-color: grey;
+   color: black;
+    
+}

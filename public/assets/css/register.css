@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&family=Comfortaa&family=Dancing+Script:wght@400;500;600&display=swap');
+/* font-family: 'Cairo', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Dancing Script', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility classes  */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* login */
+.body {
+    background: rgb(137, 253, 254);
+    background: linear-gradient(0deg, rgba(137, 253, 254, 1) 0%, rgba(255, 251, 120, 1) 85%);
+    height: 130vh;
+    width: 100vw;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background-color: rgb(108 107 107 / 49%);
+}
+
+form {
+    padding: 15px;
+}
+
+.login-sec {
+    padding: 10px 6px;
+}
+
+.sec a {
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    float: right;
+}
+
+.sec a:hover {
+    color: black;
+}
+
+label,
+p {
+    font-family: 'Cairo', sans-serif;
+    font-size: 12px;
+    padding: 6px 0;
+}
+
+.login-sec input {
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    width: 350px;
+    border: none;
+    margin: 8px 0px;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    padding-inline: 8px;
+    height: 35px;
+    text-align: center;
+}
+
+.login-btn {
+    font-family: 'Cairo', sans-serif;
+    font-size: 12px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+}
+
+hr {
+    width: 35%;
+    border-top: 3px solid black;
+    border-radius: 2px;
+}
+
+.look {
+    justify-content: space-evenly;
+    color: black;
+}
+
+.askRegister {
+    padding-inline: 10px;
+}
+
+.anchor {
+    margin: 20px 0;
+    height: 35px;
+    text-align: center;
+}
+
+.AnchorRedirect {
+    background-color: white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0;
+}
+#corrSub {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    background-color: grey;
+    color:black;
+    border: none;
+    border-radius: 20px;
+}
+.anchor a:hover,
+.login-btn:hover {
+    font-family: 'Cairo', sans-serif;
+    font-size: 13px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    /* font-weight: 700; */
+    background-color: grey;
+}
+.askRegister p{
+    padding-inline: 14px;
+}
+
+h1{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding: 15px 0 10px ;
+}
+.registerCheck{
+    color:red;
+    text-align: center;
+    padding-top: 15px;
+}
